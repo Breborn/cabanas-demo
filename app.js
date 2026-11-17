@@ -1,4 +1,4 @@
-/* REFUGIO LA CAMPANA • Motor de Reserva Directa Sin Comisiones */
+/* CABAÑAS • Motor de Reserva Directa Sin Comisiones */
 const WA_HOST = '56956823670';
 
 const CABINS = [
@@ -15,10 +15,10 @@ const CABINS = [
   },
   {
     id: 'peumo',
-    name: 'Refugio Peumo & Tinaja',
+    name: 'Cabaña Peumo & Tinaja',
     tags: ['familia', 'tinaja'],
     badge: 'Favorita V Región • 4 pax',
-    desc: 'Dos dormitorios en madera nativa, deck amplio hacia el Cerro La Campana, quincho privado y tinaja de ciprés.',
+    desc: 'Dos dormitorios en madera nativa, deck amplio hacia la cordillera, quincho privado y tinaja de ciprés.',
     specs: ['4 Huéspedes', 'Tinaja Incluida', 'Quincho Privado', 'Pet Friendly'],
     priceNight: 125000,
     extImg: 'assets/tinaja_bosque.jpg',
@@ -97,7 +97,7 @@ function renderCabins() {
                 <strong>${clp(c.priceNight)}</strong>
               </div>
               <button type="button" class="btn ${isSelected ? 'btn-amber' : 'btn-primary'}" data-select-cabin="${c.id}">
-                ${isSelected ? '✓ Seleccionada' : 'Elegir Refugio'}
+                ${isSelected ? '✓ Seleccionada' : 'Elegir Cabaña'}
               </button>
             </div>
           </div>
@@ -165,7 +165,7 @@ function buildMessage(cabin, nights, extrasList, total, savings) {
   const extrasTxt = extrasList.length ? extrasList.map((e) => e.name).join(', ') : 'Sin adicionales';
 
   return (
-    `¡Hola Refugio La Campana! 👋 Soy *${name}* y quiero consultar disponibilidad directa (sin comisión de portal):\n\n` +
+    `¡Hola Cabañas! 👋 Soy *${name}* y quiero consultar disponibilidad directa (sin comisión de portal):\n\n` +
     `🏡 *Cabaña:* ${cabin.name}\n` +
     `📅 *Fechas:* ${ci} al ${co} (${nights} ${nights === 1 ? 'noche' : 'noches'})\n` +
     `👥 *Huéspedes:* ${guests} personas\n` +

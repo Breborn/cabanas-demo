@@ -1,4 +1,4 @@
-# Refugio La Campana — Maqueta Cabañas & Tinajas (Breborn.cl)
+# Cabañas — Maqueta Cabañas & Tinajas (Breborn.cl)
 
 Demostración interactiva para arriendo directo de cabañas y lodges en la V Región de Valparaíso (Olmué, Limache, Maitencillo, Algarrobo), sin comisiones de Airbnb o Booking.
 
